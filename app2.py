@@ -17,11 +17,11 @@ import time
 load_dotenv()
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyAcvrRMGaL3yykcPOmbBbAY7JhZK3aesvI")
+genai.configure(api_key="")
 
 # IBM Watson credentials
-apikey = "mZgOq5dKdSvnxkpvHXGjC8qEOnz2kTjDjQTkzCkiXNKn"
-url = "https://api.us-east.speech-to-text.watson.cloud.ibm.com/instances/9ea1bacc-d22a-4780-8eee-288de0a53d74"
+apikey = ""
+url = ""
 
 # Initialize IBM Watson Speech to Text with SSL verification disabled
 authenticator = IAMAuthenticator(apikey)
