@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+python-dotenv
+LangChain
+Chromadb
+boto3
+youtube_transcript_api
+ibm_watson
